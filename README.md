@@ -7,4 +7,3 @@ The components of this repository are:
 
 * MongoDB
 * PostgresDB
-* Elasticsearch
