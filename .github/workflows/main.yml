@@ -23,6 +23,7 @@ jobs:
           image: fiitteam8/postgres_db
           tags: endpoints, latest
           registry: docker.io
+          directory: /small_components/postgres
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
   deploy:
