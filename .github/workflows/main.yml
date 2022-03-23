@@ -20,7 +20,7 @@ jobs:
       - uses: mr-smithers-excellent/docker-build-push@v5
         name: Build & push Docker image
         with:
-          context: "{{defaultContext}}:postgres"
+          directory: ./postgres
           image: fiitteam8/postgres_db
           tags: endpoints, latest
           registry: docker.io
