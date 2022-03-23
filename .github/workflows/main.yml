@@ -21,7 +21,7 @@ jobs:
         name: Build & push Docker image
         with:
           dockerfile: ./postgres/Dockerfile
-          driectory: ./postgres
+          directory: ./postgres
           image: fiitteam8/postgres_db
           tags: endpoints, latest
           registry: docker.io
